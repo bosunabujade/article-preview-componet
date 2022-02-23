@@ -1,0 +1,60 @@
+html {
+    font-size: 13px;
+}
+
+body {
+    font-size: 1em;
+    background-color: hsl(212, 45%, 89%);
+    color: hsla(0, 0%, 100%, .75);
+    font-family: 'Manrope', sans-serif;
+}
+
+main {
+    display: flex;
+    max-width: 375px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 75px auto;
+}
+
+.article-container {
+    background-color: white;
+    width: 90%;
+    margin: 20px;
+    border-radius: 20px;
+}
+.drawers {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+h2 {
+    color: hsl(217, 19%, 35%);
+    padding: 10px 30px 5px 30px;
+    font-size: 17px;
+}
+p {
+    color: hsl(212, 23%, 69%);
+    padding: 5px 35px;
+    line-height: 21px;
+}
+
+.avatar {
+    width: 20%;
+    border-radius: 50px;
+}
+
+h3, 
+span {
+    color: black;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
